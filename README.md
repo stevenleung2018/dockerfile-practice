@@ -3,5 +3,5 @@
 
 # Usage
 ```bash
-docker run --rm -v /$(pwd):/home/jovyan/docker-practice 
+docker run --rm -p 8889:8888 -v /$(pwd):/home/jovyan/docker-practice 
 ```
